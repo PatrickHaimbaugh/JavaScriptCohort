@@ -1,0 +1,36 @@
+body{
+	background-color: white;
+}
+
+ul{
+	padding: 0px;
+}
+
+li{
+	list-style: none;
+}
+
+#container{
+	width: 100%;
+	padding: 0px;
+}
+
+#wrapper{
+	width: 60%;
+	height: 500px;
+	margin: 0 auto;
+	background-color: #EEE;
+	text-align: center;
+	padding: 0px;
+	background-image: url(http://img.wennermedia.com/660-width/rs-106333-84c4c4bfa329eb12fac26e6afc999d7df3b1ba2b.jpg);
+	background-repeat: no-repeat;
+	background-size: cover:
+}
+
+li:nth-child(even){
+	background-color: #DDD;
+};
+
+li:nth-child(odd){
+	background-color: #EEE;
+};
