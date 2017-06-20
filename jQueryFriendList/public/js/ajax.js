@@ -29,8 +29,7 @@ $(document).ready(function(){
 	$('#add-friend').on('click', function(){
 		var friend ={
 			name: $name.val(),
-			age: $age.val(),
-			id: $id.val()
+			age: $age.val()		
 		};
 		$.ajax({
 			type: 'POST',
